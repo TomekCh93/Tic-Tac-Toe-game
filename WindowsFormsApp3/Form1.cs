@@ -153,6 +153,14 @@ namespace WindowsFormsApp3
             {
                 WinMatch();
             }
+            else if (button1.Text != "" && button1.Text == button5.Text && button5.Text == button9.Text)
+            {
+                WinMatch();
+            }
+            else if (button7.Text != "" && button7.Text == button5.Text && button5.Text == button3.Text)
+            {
+                WinMatch();
+            }
             else if (ruch > 8)
             {
                 MessageBox.Show("Draw!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
